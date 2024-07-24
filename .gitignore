@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Environment configuration files
+.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+logs/
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Operating system generated files
+.DS_Store
+Thumbs.db

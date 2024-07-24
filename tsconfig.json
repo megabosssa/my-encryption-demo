@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020", // or "commonjs" depending on your module type choice
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node" // Add this line
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
